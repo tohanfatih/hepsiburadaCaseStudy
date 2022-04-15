@@ -1,0 +1,142 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2013000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open with Chrome",
+            "match": {
+              "location": "theinternet.CustomSteps.setUpChrome()"
+            },
+            "keyword": "* "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-15T22:14:28.837Z",
+        "line": 7,
+        "name": "Hepsiburada case study",
+        "description": "",
+        "id": "hepsiburada;hepsiburada-case-study",
+        "after": [
+          {
+            "result": {
+              "duration": 833000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "theinternet.CustomSteps.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3855000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Open Hepsiburada page",
+            "match": {
+              "location": "theinternet.CustomSteps.openPage()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 7409000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Login with test user",
+            "match": {
+              "location": "theinternet.CustomSteps.clickLogin()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 587000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Search product",
+            "match": {
+              "location": "theinternet.CustomSteps.search()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 12181000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Filter product",
+            "match": {
+              "location": "theinternet.CustomSteps.filter()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 24387000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Go to bottom of the list and select random product which in the last row",
+            "match": {
+              "location": "theinternet.CustomSteps.scrollThenSelect()"
+            },
+            "keyword": "* "
+          },
+          {
+            "result": {
+              "duration": 14534000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Select lowest rated seller and add product to basket then check shopping cart",
+            "match": {
+              "location": "theinternet.CustomSteps.showAllMerchants()"
+            },
+            "keyword": "* "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hepsiburada"
+          }
+        ]
+      }
+    ],
+    "name": "Hepsiburada",
+    "description": "",
+    "id": "hepsiburada",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/hepsiburada.feature",
+    "tags": [
+      {
+        "name": "@hepsiburada",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

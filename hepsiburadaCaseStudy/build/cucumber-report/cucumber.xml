@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="65.979">
+<testcase classname="Hepsiburada" name="Hepsiburada case study" time="65.871">
+<system-out><![CDATA[* Open with Chrome..........................................................passed
+* Open Hepsiburada page.....................................................passed
+* Login with test user......................................................passed
+* Search product............................................................passed
+* Filter product............................................................passed
+* Go to bottom of the list and select random product which in the last row..passed
+* Select lowest rated seller and add product to basket then check shopping cart.passed
+]]></system-out>
+</testcase>
+</testsuite>
